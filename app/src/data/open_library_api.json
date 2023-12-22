@@ -1,0 +1,548 @@
+{
+    "numFound": 3579,
+    "start": 0,
+    "numFoundExact": true,
+    "docs": [
+        {
+            "key": "/works/OL82586W",
+            "title": "Harry Potter and the Deathly Hallows",
+            "edition_count": 115,
+            "first_publish_year": 2007,
+            "cover_i": 10110415,
+            "author_name": [
+                "J. K. Rowling"
+            ],
+            "price": "20.00"
+        },
+        {
+            "key": "/works/OL82563W",
+            "title": "Harry Potter and the Philosopher's Stone",
+            "edition_count": 324,
+            "first_publish_year": 1997,
+            "cover_i": 10521270,
+            "author_name": [
+                "J. K. Rowling"
+            ],
+            "price": "10.00"
+        },
+        {
+            "key": "/works/OL82536W",
+            "title": "Harry Potter and the Prisoner of Azkaban",
+            "edition_count": 251,
+            "first_publish_year": 1999,
+            "cover_i": 10580435,
+            "author_name": [
+                "J. K. Rowling"
+            ],
+            "price": "15.00"
+        },
+        {
+            "key": "/works/OL82548W",
+            "title": "Harry Potter and the Order of the Phoenix",
+            "edition_count": 177,
+            "first_publish_year": 2003,
+            "cover_i": 10523466,
+            "author_name": [
+                "J. K. Rowling"
+            ],
+            "price": "30.00"
+        },
+        {
+            "key": "/works/OL82537W",
+            "title": "Harry Potter and the Chamber of Secrets",
+            "edition_count": 269,
+            "first_publish_year": 1900,
+            "cover_i": 8392798,
+            "author_name": [
+                "J. K. Rowling"
+            ],
+            "price": "19.00"
+        },
+        {
+            "key": "/works/OL82560W",
+            "title": "Harry Potter and the Goblet of Fire",
+            "edition_count": 211,
+            "first_publish_year": 1999,
+            "cover_i": 12059372,
+            "author_name": [
+                "J. K. Rowling"
+            ],
+            "price": "18.00"
+        },
+        {
+            "key": "/works/OL82565W",
+            "title": "Harry Potter and the Half-Blood Prince",
+            "edition_count": 122,
+            "first_publish_year": 2005,
+            "cover_i": 10716273,
+            "author_name": [
+                "J. K. Rowling"
+            ],
+            "price": "18.00"
+        },
+        {
+            "key": "/works/OL20874116W",
+            "title": "Harry Potter",
+            "edition_count": 1,
+            "first_publish_year": 2007,
+            "cover_i": 10195373,
+            "author_name": [
+                "Warner Bros. Entertainment Inc"
+            ],
+            "price": "18.00"
+        },
+        {
+            "key": "/works/OL21385222W",
+            "title": "Harry Potter",
+            "edition_count": 2,
+            "first_publish_year": 2001,
+            "cover_i": 10522626,
+            "author_name": [
+                "J. K. Rowling"
+            ],
+            "price": "18.00"
+        },
+        {
+            "key": "/works/OL14981609W",
+            "title": "Harry Potter (series) 1-7",
+            "edition_count": 16,
+            "first_publish_year": 1999,
+            "cover_i": 8457523,
+            "author_name": [
+                "J. K. Rowling"
+            ],
+            "price": "30.00"
+        },
+        {
+            "key": "/works/OL17360811W",
+            "title": "Harry Potter and the Cursed Child",
+            "edition_count": 34,
+            "first_publish_year": 2001,
+            "cover_i": 8763851,
+            "author_name": [
+                "Jack Thorne",
+                "John Tiffany",
+                "J. K. Rowling",
+                "Jack Thorne",
+                "Jean-François Ménard"
+            ],
+            "price": "30.00"
+        },
+        {
+            "key": "/works/OL17920096W",
+            "title": "Harry Potter - Deluxe Coloring Book",
+            "edition_count": 1,
+            "first_publish_year": 2003,
+            "cover_i": 8244695,
+            "author_name": [
+                "Joan Moloney"
+            ],
+            "price": "15.00"
+        },
+        {
+            "key": "/works/OL30530361W",
+            "title": "Harry Potter",
+            "edition_count": 1,
+            "first_publish_year": 2019,
+            "author_name": [
+                "Adele Books"
+            ],
+            "price": "15.00"
+        },
+        {
+            "key": "/works/OL8460139W",
+            "title": "Harry Potter (series) 1-4",
+            "edition_count": 12,
+            "first_publish_year": 1999,
+            "cover_i": 8761929,
+            "author_name": [
+                "J. K. Rowling"
+            ],
+            "price": "15.00"
+        },
+        {
+            "key": "/works/OL23577451W",
+            "title": "Harry Potter, A Cinematic Guide (e-Book)",
+            "edition_count": 1,
+            "first_publish_year": 2016,
+            "cover_i": 10515161,
+            "author_name": [
+                "Felicity Baker"
+            ],
+            "price": "15.00"
+        },
+        {
+            "key": "/works/OL32461227W",
+            "title": "Harry Potter",
+            "edition_count": 1,
+            "first_publish_year": 2010,
+            "cover_i": 13230693,
+            "author_name": [
+                "Scholastic Editorial"
+            ],
+            "price": "15.00"
+        },
+        {
+            "key": "/works/OL20759148W",
+            "title": "Harry Potter, The Wand Collection",
+            "edition_count": 6,
+            "first_publish_year": 2017,
+            "cover_i": 10501267,
+            "author_name": [
+                "Insight Editions",
+                "Monique Peterson"
+            ],
+            "price": "25.00"
+        },
+        {
+            "key": "/works/OL25926206W",
+            "title": "Livre de Coloriage Harry Potter",
+            "edition_count": 55,
+            "first_publish_year": 2020,
+            "author_name": [
+                "Edition Coloriage Hp"
+            ],
+            "price": "25.00"
+        },
+        {
+            "key": "/works/OL20569879W",
+            "title": "Harry Potter",
+            "edition_count": 6,
+            "first_publish_year": 2018,
+            "cover_i": 9211955,
+            "author_name": [
+                "Kevin Wilson",
+                "Matthew Reinhart"
+            ],
+            "price": "25.00"
+        },
+        {
+            "key": "/works/OL25435677W",
+            "title": "Harry Potter",
+            "edition_count": 18,
+            "first_publish_year": 2020,
+            "cover_i": 12431887,
+            "author_name": [
+                "Insight Editions"
+            ],
+            "price": "25.00"
+        },
+        {
+            "key": "/works/OL8435901W",
+            "title": "Harry Potter",
+            "edition_count": 1,
+            "first_publish_year": 2004,
+            "cover_i": 469904,
+            "author_name": [
+                "Andrews McMeel Publishing"
+            ],
+            "price": "25.00"
+        },
+        {
+            "key": "/works/OL20895240W",
+            "title": "Harry Potter",
+            "edition_count": 1,
+            "first_publish_year": 2013,
+            "cover_i": 10229037,
+            "author_name": [
+                "J. K. Rowling"
+            ],
+            "price": "16.00"
+        },
+        {
+            "key": "/works/OL30862567W",
+            "title": "Harry Potter Malbuch",
+            "edition_count": 1,
+            "first_publish_year": 2020,
+            "author_name": [
+                "lina wizar"
+            ],
+            "price": "16.00"
+        },
+        {
+            "key": "/works/OL17186023W",
+            "title": "Reading Harry Potter",
+            "edition_count": 1,
+            "first_publish_year": 2003,
+            "cover_i": 186699,
+            "author_name": [
+                "Giselle Liza Anatol"
+            ],
+            "price": "16.00"
+        },
+        {
+            "key": "/works/OL35166465W",
+            "title": "Harry Potter and the Philosopher's Stone",
+            "edition_count": 4,
+            "first_publish_year": 2014,
+            "cover_i": 14171595,
+            "author_name": [
+                "J. K. Rowling"
+            ],
+            "price": "16.00"
+        },
+        {
+            "key": "/works/OL22159351W",
+            "title": "Harry Potter",
+            "edition_count": 17,
+            "first_publish_year": 2018,
+            "cover_i": 13165191,
+            "author_name": [
+                "Insight Editions"
+            ],
+            "price": "16.00"
+        },
+        {
+            "key": "/works/OL16058211W",
+            "title": "Harry Potter Poster Book",
+            "edition_count": 3,
+            "first_publish_year": 2001,
+            "cover_i": 6984750,
+            "author_name": [
+                "Rick DeMonico"
+            ],
+            "price": "16.00"
+        },
+        {
+            "key": "/works/OL25544021W",
+            "title": "Carnet Harry Potter",
+            "edition_count": 5,
+            "first_publish_year": 2021,
+            "author_name": [
+                "Edition BH"
+            ],
+            "price": "16.00"
+        },
+        {
+            "key": "/works/OL25450129W",
+            "title": "Harry Potter",
+            "edition_count": 17,
+            "first_publish_year": 2020,
+            "cover_i": 13548980,
+            "author_name": [
+                "Insight Editions"
+            ],
+            "price": "14.00"
+        },
+        {
+            "key": "/works/OL16579402W",
+            "title": "Harry Potter and philosophy",
+            "edition_count": 1,
+            "first_publish_year": 2004,
+            "cover_i": 604805,
+            "price": "14.00"
+        },
+        {
+            "key": "/works/OL35878128W",
+            "title": "Farben Harry Potter",
+            "edition_count": 1,
+            "first_publish_year": 2021,
+            "author_name": [
+                "Maik Weber"
+            ],
+            "price": "14.00"
+        },
+        {
+            "key": "/works/OL26120277W",
+            "title": "Harry Potter Character Pop",
+            "edition_count": 2,
+            "first_publish_year": 2022,
+            "author_name": [
+                "Matthew Reinhart"
+            ],
+            "price": "14.00"
+        },
+        {
+            "key": "/works/OL17913253W",
+            "title": "Harry Potter Fun Book",
+            "edition_count": 1,
+            "first_publish_year": 2001,
+            "cover_i": 8266548,
+            "author_name": [
+                "Scholastic Inc."
+            ],
+            "price": "14.00"
+        },
+        {
+            "key": "/works/OL24449026W",
+            "title": "Harry Potter - Voldemort",
+            "edition_count": 1,
+            "first_publish_year": 2020,
+            "author_name": [
+                "Insight Editions"
+            ],
+            "price": "14.00"
+        },
+        {
+            "key": "/works/OL9512761W",
+            "title": "Harry Potter. Sticken",
+            "edition_count": 1,
+            "first_publish_year": 2002,
+            "cover_i": 3272899,
+            "author_name": [
+                "Bettina Grabis"
+            ],
+            "price": "14.00"
+        },
+        {
+            "key": "/works/OL8527333W",
+            "title": "Harry Potter Lantern Journal (Harry Potter)",
+            "edition_count": 1,
+            "first_publish_year": 2002,
+            "author_name": [
+                "Cedco Publishing"
+            ],
+            "price": "14.00"
+        },
+        {
+            "key": "/works/OL34958254W",
+            "title": "Harry Potter",
+            "edition_count": 1,
+            "first_publish_year": 1998,
+            "cover_i": 13845538,
+            "author_name": [
+                "J. K. Rowling"
+            ],
+            "price": "14.00"
+        },
+        {
+            "key": "/works/OL17351743W",
+            "title": "Harry Potter and the Methods of Rationality",
+            "edition_count": 1,
+            "first_publish_year": 2015,
+            "cover_i": 8044459,
+            "author_name": [
+                "Eliezer Yudkowsky"
+            ],
+            "price": "0.00"
+        },
+        {
+            "key": "/works/OL26354860W",
+            "title": "Harry Potter",
+            "edition_count": 1,
+            "first_publish_year": 2018,
+            "cover_i": 12298092,
+            "author_name": [
+                "Kolektif"
+            ],
+            "price": "0.00"
+        },
+        {
+            "key": "/works/OL30799263W",
+            "title": "Harry Potter",
+            "edition_count": 1,
+            "first_publish_year": 2021,
+            "author_name": [
+                "Aspet Karapetyan"
+            ],
+            "price": "0.00"
+        },
+        {
+            "key": "/works/OL22207810W",
+            "title": "Harry Potter",
+            "edition_count": 1,
+            "first_publish_year": 2020,
+            "author_name": [
+                "Gold ATOM"
+            ],
+            "price": "0.00"
+        },
+        {
+            "key": "/works/OL21914335W",
+            "title": "Harry Potter",
+            "edition_count": 1,
+            "first_publish_year": 2020,
+            "author_name": [
+                "Tanis Gray"
+            ],
+            "price": "0.00"
+        },
+        {
+            "key": "/works/OL33807414W",
+            "title": "Harry Potter",
+            "edition_count": 1,
+            "first_publish_year": 2001,
+            "author_name": [
+                "Collectif"
+            ],
+            "price": "17.00"
+        },
+        {
+            "key": "/works/OL26627405W",
+            "title": "Harry Potter",
+            "edition_count": 19,
+            "first_publish_year": 2021,
+            "cover_i": 13480070,
+            "author_name": [
+                "Insight Editions"
+            ],
+            "price": "17.00"
+        },
+        {
+            "key": "/works/OL24449025W",
+            "title": "Harry Potter - Dumbledore",
+            "edition_count": 1,
+            "first_publish_year": 2020,
+            "author_name": [
+                "Insight Editions"
+            ],
+            "price": "17.00"
+        },
+        {
+            "key": "/works/OL7961966M",
+            "title": "Harry Potter Poster (Azkaban) (Harry Potter)",
+            "edition_count": 1,
+            "first_publish_year": 2000,
+            "author_name": [
+                "Zzz",
+                "Bloomsbury Point Of Sale"
+            ],
+            "price": "17.00"
+        },
+        {
+            "key": "/works/OL25275675W",
+            "title": "Harry Potter Origami #2 (Harry Potter)",
+            "edition_count": 1,
+            "first_publish_year": 2021,
+            "cover_i": 14415723,
+            "author_name": [
+                "The Scholastic."
+            ],
+            "price": "17.00"
+        },
+        {
+            "key": "/works/OL35298596W",
+            "title": "Harry Potter",
+            "edition_count": 1,
+            "first_publish_year": 2007,
+            "author_name": [
+                "J. K. Rowling"
+            ],
+            "price": "17.00"
+        },
+        {
+            "key": "/works/OL35269866W",
+            "title": "Harry Potter 06",
+            "edition_count": 1,
+            "first_publish_year": 2013,
+            "author_name": [
+                "J. K. Rowling"
+            ],
+            "price": "17.00"
+        },
+        {
+            "key": "/works/OL16977655W",
+            "title": "Critical perspectives on Harry Potter",
+            "edition_count": 6,
+            "first_publish_year": 2008,
+            "cover_i": 10047308,
+            "author_name": [
+                "Elizabeth E. Heilman"
+            ],
+            "price": "40.00"
+        }
+    ],
+    "num_found": 3579,
+    "q": "harry potter",
+    "offset": null
+}
