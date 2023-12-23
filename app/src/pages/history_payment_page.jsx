@@ -1,4 +1,3 @@
-import { InputRangeDate } from "../components/form/input_range_date";
 import { InputText } from "../components/form/input_text";
 import Datepicker from "tailwind-datepicker-react";
 import { useState } from 'react';

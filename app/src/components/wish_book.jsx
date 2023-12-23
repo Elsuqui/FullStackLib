@@ -1,7 +1,15 @@
+import { useContext } from "react";
 import { BookCover } from "./book_cover";
 import { XMarkIcon } from "@heroicons/react/24/outline";
+import { BookContext } from "../providers/BookProvider";
 
-export const WishBook = ({ cover, name, author, price }) => {
+export const WishBook = ({ id, cover, name, author, price }) => {
+
+    const { wishList, setWishList } = useContext(BookContext);
+    const removeFromWishList = () => {
+        setWishList(() => wishList.filter(e => e.id !== id));
+    };
+
     return (
         <div className="inline-flex border-2 rounded-r-lg my-4 py-2 w-2/3 border-2 shadow-lg">
             <BookCover 
@@ -14,8 +22,8 @@ export const WishBook = ({ cover, name, author, price }) => {
                 <div className="text-xl font-bold mt-4"><span>{ price }</span></div>
             </div>
             <div className="w-20">
-                <button className="rounded-full bg-red-500">
-                    <XMarkIcon className="h-12 w-12 text-white"/>
+                <button className="rounded-full bg-red-500" onClick={removeFromWishList}>
+                    <XMarkIcon className="h-12 w-12 text-white" />
                 </button>
             </div>
         </div>

@@ -6,16 +6,16 @@ export const Footer = () => {
                 </span>
                 <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
                     <li>
-                        <a href="#" className="hover:underline me-4 md:me-6">About</a>
+                        <a href="#" className="hover:underline me-4 md:me-6">Acerca de Nosotros</a>
                     </li>
                     <li>
-                        <a href="#" className="hover:underline me-4 md:me-6">Privacy Policy</a>
+                        <a href="#" className="hover:underline me-4 md:me-6">Políticas de Privacidad</a>
                     </li>
                     <li>
-                        <a href="#" className="hover:underline me-4 md:me-6">Licensing</a>
+                        <a href="#" className="hover:underline me-4 md:me-6">Licencias</a>
                     </li>
                     <li>
-                        <a href="#" className="hover:underline">Contact</a>
+                        <a href="#" className="hover:underline">Contactos</a>
                     </li>
                 </ul>
             </div>

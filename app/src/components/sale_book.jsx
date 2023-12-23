@@ -1,10 +1,18 @@
 import { BookCover } from "./book_cover";
+import { useNavigate } from "react-router-dom";
 
-export const SaleBook = ({ name, author, description, cover, rating, price }) => {
+export const SaleBook = ({ id, name, author, description, cover, rating, price }) => {
+    const navigate = useNavigate();
+
+    const goToBookDetails = () => {
+      console.log(`/libros/${id}`);
+      navigate(`/libros/${id}`);
+    }
+
     return (
-      <div className=" w-fit">
-        <BookCover cover={ cover } size="sm" />
-        <div className="text-start mt-4 text-black font-medium text-base"><span>{ name }</span></div>
+      <div className="w-fit">
+        <BookCover cover={ cover } size="sm" onClick={ () => goToBookDetails() }/>
+        <div className="text-start mt-4 w-32 text-black font-medium text-base"><p className="line-clamp-3">{ name }</p></div>
         <div className="text-start text-black text-sm"><span>{ author }</span></div>
         <div className="text-start"><span>Rating { rating }</span></div>
         <div className="text-start text-slate-500 text-sm"><p>{ description }</p></div>

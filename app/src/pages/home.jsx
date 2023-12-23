@@ -1,6 +1,23 @@
 import { SaleBook } from "../components/sale_book";
+import { useContext, useEffect, useState } from "react";
+import { BookContext } from "../providers/BookProvider";
 
 export const HomePage = () => {
+    const { books } = useContext(BookContext);
+
+    const [loaded, setLoaded] = useState(false);
+    const [homeBooks, setHomeBooks] = useState([]); 
+    
+    useEffect(() => {
+        setLoaded(() => false);
+        if (books.length > 0) {
+            setHomeBooks(() => {
+                return books.slice(0, 9);
+            });
+        }
+        setLoaded(() => true);
+    }, [books]);
+
     return (
         <>
             <div className="mt-4">
@@ -8,7 +25,21 @@ export const HomePage = () => {
             </div>
             <hr className="border-1 border-black" />
             <div className="flex flex-wrap flex-row gap-x-8 gap-y-12 text-center mt-4">
-                <SaleBook 
+                {
+                    (homeBooks.map((element, key) => {
+                        return (
+                            <SaleBook
+                                id={ element.id }
+                                key={ key }
+                                cover={ element.cover_url }
+                                name={ element.title }
+                                author={ element.author_name.length > 0 ? element.author_name[0] : '' }
+                                price={ Number.parseFloat(element.price) > 0 ? `US$ ${element.price}` : 'Free'}
+                            />
+                        );
+                    }))
+                }
+                {/* <SaleBook 
                     cover="https://images.cdn3.buscalibre.com/fit-in/180x180/7a/72/7a72d3f38f52c4fefca2bc32fc8a73a1.jpg"
                     name="Nombre 1"
                     author="Autor 1"
@@ -77,7 +108,7 @@ export const HomePage = () => {
                     author="Autor 1"
                     description="Description 1"
                     price="$ 2.00"
-                    />
+                    /> */}
             </div>
         </>
     );
