@@ -121,7 +121,6 @@ export const BookDetailsPage = () => {
     
                     <div className="w-2/3">
                         <div className="w-fit text-4xl mt-4"><span>{ book.author_name.length ? book.author_name[0] : '' } (Autor)</span></div>
-                        <div className="mt-2"><span>Calificación</span></div>
                         <div className="text-2xl mt-8 font-bold"><span>{ Number.parseFloat(book.price) > 0 ? `US$ ${book.price}` : 'Free' }</span></div>
                         <ShoppingCartButton product={ book } mode={ inShoopingCart } btnClasses="px-5 py-2 text-xl mt-2" />
                         <div className="flex items-center mt-2">

@@ -18,7 +18,6 @@ export const WishBook = ({ id, cover, name, author, price }) => {
             <div className="mx-4 my-2 grow">
                 <div className="font-bold text-2xl"><span>{ name }</span></div>
                 <div className="text-xl"><span>{ author }</span></div>
-                <div>Calificación</div>
                 <div className="text-xl font-bold mt-4"><span>{ price }</span></div>
             </div>
             <div className="w-20">

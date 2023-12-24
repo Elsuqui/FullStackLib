@@ -1,0 +1,39 @@
+.header {
+    @apply bg-amber-900 text-white;
+}
+
+.header-container {
+    @apply container mx-auto;
+}
+
+.container-items {
+    @apply flex flex-col
+}
+
+.container-items-up {
+    @apply flex justify-between
+}
+
+.container-items-search_box {
+    @apply flex flex-col justify-center text-center
+}
+
+.container-items-search_box-item {
+    @apply relative self-center m-5;
+}
+
+.container-items-up-right {
+    @apply flex space-x-8 mt-4;
+}
+
+.button--rounded_full {
+    @apply rounded-full;
+}
+
+.button.heart_icon {
+    @apply h-6 w-6 text-white;
+}
+
+.button.shopping_icon {
+    @apply h-6 w-6 text-white;
+}

@@ -1,0 +1,15 @@
+.search_box {
+    @apply flex space-x-4 m-1 bg-white;
+}
+
+.input {
+    @apply py-1 px-2 !important;
+}
+
+.input.main_search_item {
+    @apply w-64 text-black !important;
+}
+
+.search_box_search_icon {
+    @apply w-8 h-8 text-black my-1 pr-2;
+}

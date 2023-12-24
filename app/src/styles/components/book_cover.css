@@ -1,0 +1,24 @@
+.book_cover {
+    @apply mx-6 bg-contain;
+}
+
+.book_cover.book_cover_item {
+    @apply shadow-xl border-2;
+}
+
+.book_cover--pointer {
+    @apply cursor-pointer;
+}
+
+.book_cover.book_cover_item--xs {
+    @apply w-24 h-32;
+}
+
+.book_cover.book_cover_item--sm {
+    @apply w-32 h-48;
+}
+
+.book_cover.book_cover_item--md {
+    @apply w-52 h-80;
+}
+

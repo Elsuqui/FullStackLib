@@ -1,4 +1,4 @@
-import { useState } from "react";
+import "../styles/components/search_result_list.css";
 import { useNavigate } from "react-router-dom";
 
 export const SearchResultList = ({ list, open, setOpenList, setSearchQuery }) => {
@@ -12,11 +12,11 @@ export const SearchResultList = ({ list, open, setOpenList, setSearchQuery }) =>
 
     if (open) {
         return (
-            <div className="flex flex-col bg-white shadow-md z-10 m-1 rounded-md max-h-32 text-black gap-1 overflow-y-scroll absolute w-full text-start">
+            <div className="search_result">
                 {
                     (list.map((element, index) => {
                         return (
-                            <div key={index} className="p-2 cursor-pointer hover:bg-gray-100"
+                            <div key={index} className="search_result_item"
                                 onClick={() => goTo(`/libros/${element.id}`)}
                             >
                                 { element.title }

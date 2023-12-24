@@ -1,0 +1,19 @@
+.sale_book {
+    @apply w-fit;
+}
+
+.sale_book.item.name {
+    @apply text-start mt-4 w-32 text-black font-medium text-base;
+}
+
+.sale_book.item.author {
+    @apply text-start text-black text-sm;
+}
+
+.sale_book.item.description {
+    @apply text-start text-slate-500 text-sm;
+}
+
+.sale_book.item.price {
+    @apply text-end text-xl font-bold;
+}

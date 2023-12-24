@@ -1,13 +1,14 @@
+import "../styles/components/book_cover.css";
 export const BookCover = ({ cover, size, onClick }) => {
     const sizeClasses = {
-        xs: "w-24 h-32",
-        sm: "w-32 h-48",
-        md: "w-52 h-80",
+        xs: "--xs",
+        sm: "--sm",
+        md: "--md",
         lg: ""
     }; 
     return (
-        <div className="mx-6 bg-contain">
-            <img className={'shadow-xl border-2 ' + sizeClasses[size] + (onClick ? ' cursor-pointer' : '')} src={ cover } onClick={onClick}/>
+        <div className="book_cover">
+            <img className={'book_cover book_cover_item' + sizeClasses[size] + (onClick ? ' book_cover--pointer' : '')} src={ cover } onClick={onClick}/>
         </div>
     );
 };
