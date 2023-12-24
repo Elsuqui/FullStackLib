@@ -14,29 +14,52 @@ export const BookDetailsPage = () => {
     const [ inShoopingCart, setInShoopingCart ] = useState(NOT_IN_CART);
     const { books, wishList, setWishList, cartItems } = useContext(BookContext);
     const navigate = useNavigate();
+
+    const findBook = () => {
+        const bookFound = books.find((book) => book.id == id);
+        if (bookFound) {
+            setBook(() => ({...book, ...bookFound}));
+        } else {
+            navigate('/not-found');
+        }
+    }
+
+    const checkShoppingCart = () => {
+        const inShoppingCartFound = cartItems.find(element => element.id == book.id);
+        if (inShoppingCartFound) {
+            setInShoopingCart(() => IN_CART);
+        } else {
+            setInShoopingCart(() => NOT_IN_CART);
+        }
+    }
+
+    const checkWishList = () => {
+        const wishedFound = wishList.find((element) => element.id == book.id);
+        if (wishedFound) {
+            setWished(() => true);
+        } else {
+            setWished(() => false);
+        }
+    }
      
     useEffect(() => {
         if (id && books.length > 0) {
-            const bookFound = books.find((book) => book.id == id);
-            if (bookFound) {
-                setBook(() => ({...book, ...bookFound}));
-            } else {
-                navigate('/not-found');
-            }
+            findBook();
         }
     },[books]);
 
     useEffect(() => {
+        if (Object.hasOwn(book, 'id') && book.id !== id) {
+            findBook();
+            checkWishList();
+            checkShoppingCart();
+        }
+    },[id])
+
+    useEffect(() => {
         if (Object.hasOwn(book, 'id')) {
-            const wishedFound = wishList.find((element) => element.id == book.id);
-            if (wishedFound) {
-                setWished(() => true);
-            }
-            const inShoppingCartFound = cartItems.find(element => element.id == book.id);
-            console.log("Shopping cart: ", inShoppingCartFound);
-            if (inShoppingCartFound) {
-                setInShoopingCart(() => IN_CART);
-            }
+            checkWishList();
+            checkShoppingCart();
         }
     }, [book]);
 

@@ -23,7 +23,7 @@ export const Header = () => {
                         </div>
                     </div>
                     <div className="flex flex-col justify-center text-center">
-                        <div className="self-center m-5">
+                        <div className="relative self-center m-5">
                             <SearchBox />
                         </div>
                     </div>

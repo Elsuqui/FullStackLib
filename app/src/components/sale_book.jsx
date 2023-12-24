@@ -5,7 +5,6 @@ export const SaleBook = ({ id, name, author, description, cover, rating, price }
     const navigate = useNavigate();
 
     const goToBookDetails = () => {
-      console.log(`/libros/${id}`);
       navigate(`/libros/${id}`);
     }
 

@@ -1,22 +1,29 @@
 import { XMarkIcon } from "@heroicons/react/24/outline";
 import { CheckoutBookDetail } from "../components/checkout_detail";
-import { useContext } from "react";
+import { useContext, useEffect, useState } from "react";
 import { BookContext } from "../providers/BookProvider";
 
 export const CheckoutPage = (books) => {
     // Hay que usar un contexto global para el carrito
     const { cartItems, setCartItems } = useContext(BookContext);
 
+    const [ total, setTotal ] = useState(0)
+
     const removeFromShoopingCart = (book) => {
-        console.log("Book", book);
         setCartItems(() => cartItems.filter(e => e.id !== book.id));
     };
+
+    useEffect(() => {
+        const operation = cartItems.reduce((previous, current) => Number.parseFloat(previous) + Number.parseFloat(current.price), 0);
+        setTotal(() => operation);
+    }, [cartItems])
 
     return (
         <div className="mt-4">
             <div className="text-3xl mb-4"><span>Verificar Pedido</span></div>
             {
                 cartItems.length > 0 ? (
+                    <>
                     <table>
                         <thead>
                             <tr>
@@ -42,7 +49,7 @@ export const CheckoutPage = (books) => {
                                             </td>
                                             <td className="text-center">
                                                 <div className="px-4">
-                                                    <input type="number" value={element.quantity} className="border-2 w-20"></input>
+                                                    <span className="w-20">{element.quantity}</span>
                                                 </div>
                                             </td>
                                             <td className="pr-8">
@@ -59,6 +66,15 @@ export const CheckoutPage = (books) => {
                             }
                         </tbody>
                     </table>
+                    <div className="flex space-x-10 m-4 text-xl">
+                        <div className="font-bold">
+                            <span>TOTAL: </span>
+                        </div>
+                        <div>
+                            <span>$ { total }</span>
+                        </div>
+                    </div>
+                    </>
                 ) : (
                     <div className="text-start text-2xl mt-8">
                         <span>Aún no se han agregado libros a tu carrito</span>
